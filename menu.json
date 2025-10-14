@@ -32,13 +32,13 @@
     { "id": "ad8", "name": "Adición de salsa (BBQ, miel mostaza, picantes, tradicionales)", "price": 1000, "img": "https://github.com/xtebaan/Pancho/blob/main/saaaal.png?raw=true" }
   ],
   "Limonadas": [
-    { "id": "l1", "name": "Limonada Natural", "price": 6000, "img": "limonada.jpg" },
-    { "id": "l2", "name": "Coco", "price": 10000, "img": "coco.jpg" },
-    { "id": "l3", "name": "Frutos Rojos en leche", "price": 9000, "img": "frutos-leche.jpg" },
-    { "id": "l4", "name": "Frutos Rojos en agua", "price": 9000, "img": "frutos-agua.jpg" },
-    { "id": "l5", "name": "Hierbabuena", "price": 9000, "img": "hierbabuena.jpg" },
-    { "id": "l6", "name": "Mango Biche", "price": 9000, "img": "mango.jpg" },
-    { "id": "l7", "name": "Cereza", "price": 9000, "img": "cereza.jpg" }
+    { "id": "l1", "name": "Limonada Natural", "price": 6000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-delicious-juicy-lemonade-png-image_6241123.jpg" },
+    { "id": "l2", "name": "Coco", "price": 10000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-refresh-coconut-cocktail-drink-png-image_13228587.png" },
+    { "id": "l3", "name": "Frutos Rojos en leche", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-red-fruit-smoothie-png-image_16963479.png" },
+    { "id": "l4", "name": "Frutos Rojos en agua", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-refreshing-berry-mojito-cocktail-with-blackberry-blueberry-raspberry-and-mint-png-image_12943958.png" },
+    { "id": "l5", "name": "Hierbabuena", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/limonada-hierbabuena2.png" },
+    { "id": "l6", "name": "Mango Biche", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-a-glass-of-lemonade-with-mango-and-limes-on-table-png-image_15585581.png" },
+    { "id": "l7", "name": "Cereza", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-cherry-limeade-png-image_19534395.png" }
   ],
   "Gaseosas y Otros": [
     { "id": "b1", "name": "Hit litro", "price": 6000, "img": "hit1l.jpg" },
@@ -67,3 +67,4 @@
     { "id": "c4", "name": "Cordillera", "price": 6000, "img": "https://drinka.co/wp-content/uploads/2024/12/23.png" }
   ]
 }
+
