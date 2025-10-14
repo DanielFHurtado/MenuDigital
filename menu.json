@@ -23,7 +23,7 @@
   ],
   "Adicionales": [
     { "id": "ad1", "name": "Costilla 200gr (adicional)", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/costillas-la-parrilla-calientes-con-salsa-barbacoa-aislado-sobre-fondo-blanco-ai-generativo.jpg?raw=true" },
-    { "id": "ad2", "name": "Queso 100gr", "price": 6000, "img": "ad-queso.jpg" },
+    { "id": "ad2", "name": "Queso 100gr", "price": 6000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-grated-cheese-in-a-glass-bowl-tasty-parmesan-isolated-on-white-png-image_12298454.png" },
     { "id": "ad3", "name": "Pollo (adicional)", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/bola-de-camaron.jpg?raw=true" },
     { "id": "ad4", "name": "Maduro", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/platano.png?raw=true" },
     { "id": "ad5", "name": "Maíz", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/maizitos.png?raw=true" },
@@ -41,9 +41,9 @@
     { "id": "l7", "name": "Cereza", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-cherry-limeade-png-image_19534395.png" }
   ],
   "Gaseosas y Otros": [
-    { "id": "b1", "name": "Hit litro", "price": 6000, "img": "hit1l.jpg" },
-    { "id": "b2", "name": "Coca Cola 1.5L", "price": 8000, "img": "coca-1.5.jpg" },
-    { "id": "b3", "name": "Postobón 2L", "price": 7000, "img": "postobon-2l.jpg" },
+    { "id": "b1", "name": "Hit litro", "price": 6000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/Jugos-Hit-Surtido-.png" },
+    { "id": "b2", "name": "Coca Cola 1.5L", "price": 8000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/Coke-1.5L.png" },
+    { "id": "b3", "name": "Postobón 2L", "price": 7000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/3279456834.png" },
     { "id": "b4", "name": "Hit personal", "price": 4000, "img": "hit-personal.jpg" },
     { "id": "b5", "name": "Coca Cola 400ml", "price": 4000, "img": "coca-400.jpg" },
     { "id": "b6", "name": "Agua", "price": 3000, "img": "agua.jpg" }
@@ -67,4 +67,5 @@
     { "id": "c4", "name": "Cordillera", "price": 6000, "img": "https://drinka.co/wp-content/uploads/2024/12/23.png" }
   ]
 }
+
 
