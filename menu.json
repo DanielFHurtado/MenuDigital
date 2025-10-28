@@ -229,7 +229,7 @@
         {
             "name": "Soda saborizada (Frutos Rojos\/Amarillo\/Verde)",
             "price": "9000",
-            "img": "soda.jpg"
+            "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/sodas.jpeg"
         }
     ],
     "Cervezas": [
