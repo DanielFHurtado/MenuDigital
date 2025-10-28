@@ -2,11 +2,6 @@
 session_start();
 require 'conexion.php';
 
-// Evita que el navegador guarde versiones viejas
-header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
-header("Pragma: no-cache");
-
-// Verifica sesión
 if (!isset($_SESSION['cedula'])) {
   header("Location: login.php");
   exit;
@@ -17,12 +12,22 @@ if (!isset($_SESSION['cedula'])) {
 <head>
   <meta charset="UTF-8">
   <title>Menú - Pancho Rápidas</title>
-  <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="topbar">
-    Bienvenido <?= htmlspecialchars($_SESSION['nombre']) ?>
-  </div>
+<div class="topbar">
+  Bienvenido <?= htmlspecialchars($_SESSION['nombre']) ?>
+  <a href="logout.php" style="
+      float:right;
+      background:#c0392b;
+      color:#fff;
+      padding:6px 10px;
+      border-radius:6px;
+      text-decoration:none;
+      margin-left:10px;
+  ">Cerrar sesión</a>
+</div>
+
 
   <!-- HERO -->
   <section class="hero">
@@ -72,7 +77,7 @@ if (!isset($_SESSION['cedula'])) {
   <!-- TOAST -->
   <div id="toast" class="toast"></div>
 
-  <!-- SCRIPT -->
+  <!-- SCRIPTS -->
   <script src="script.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>

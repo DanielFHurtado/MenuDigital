@@ -41,13 +41,15 @@ const formatCurrency = n => "$" + n.toLocaleString("es-CO");
 async function init() {
   try {
     // Se carga el menú desde el archivo JSON
-    const resp = await fetch("menu.json");
+    const resp = await fetch("menu.json?nocache=" + Date.now());
     menuData = await resp.json();
   } catch (e) {
     showToast("No se pudo cargar el menú (menu.json).");
     console.error(e);
     return;
   }
+
+
 
   // Renderiza las secciones principales
   renderCategories();
@@ -89,6 +91,7 @@ function renderCategories() {
 // ===========================================================
 
 function renderMenu() {
+  
   menuEl.innerHTML = "";
   const container = document.createElement("div");
   container.className = "container-inner";
@@ -152,7 +155,9 @@ function renderMenu() {
       const addBtn = document.createElement("button");
       addBtn.className = "add-btn";
       addBtn.textContent = "Agregar";
-      addBtn.onclick = () => { addToCart(item.id); };
+      const itemId = slug(item.name);
+      addBtn.onclick = () => { addToCart(itemId); };
+      item.id = itemId;
 
       actions.appendChild(addBtn);
       card.appendChild(actions);
@@ -181,13 +186,31 @@ function saveCart() {
   localStorage.setItem("pancho_cart_v2", JSON.stringify(cart));
 }
 
-// Agregar producto
+// ===========================================================
+// 🛒 Agregar producto al carrito (con validación de disponibilidad)
+// ===========================================================
 function addToCart(id, qty = 1) {
+  const item = findItemById(id);
+  if (!item) {
+    showToast("Producto no encontrado.");
+    return;
+  }
+
+  // 🔍 Validar si el precio es un número
+  const price = parseFloat(item.price);
+
+  if (isNaN(price)) {
+    // Si el precio no es numérico (por ejemplo: "no disponible")
+    showToast("❌ Este producto no está disponible actualmente.");
+    return;
+  }
+
+  // ✅ Si es válido, agregar normalmente
   if (!cart[id]) cart[id] = 0;
   cart[id] += qty;
   saveCart();
   renderCart();
-  showToast("Agregado al carrito");
+  showToast("✅ Agregado al carrito");
 }
 
 // Eliminar producto

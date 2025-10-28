@@ -4,8 +4,11 @@ $user = "root";
 $pass = "";
 $db = "menu_digital";
 
-$conexion = new mysqli($host, $user, $pass, $db);
-if ($conexion->connect_error) {
-    die("Error de conexión: " . $conexion->connect_error);
+$conn = new mysqli($host, $user, $pass, $db);
+
+if ($conn->connect_error) {
+    die("Error de conexión: " . $conn->connect_error);
 }
 ?>
+
+

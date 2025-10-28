@@ -1,71 +1,257 @@
 {
-  "Alitas": [
-    { "id": "a1", "name": "Combo 1: 6 Alitas + Porción de papas", "price": 22000, "img": "https://png.pngtree.com/thumb_back/fh260/background/20230518/pngtree-large-plate-of-chicken-wings-on-a-black-background-image_2586127.jpg" },
-    { "id": "a2", "name": "Combo 2: 10 Alitas + Porción de papas", "price": 32000, "img": "https://png.pngtree.com/thumb_back/fh260/background/20230518/pngtree-large-plate-of-chicken-wings-on-a-black-background-image_2586127.jpg" },
-    { "id": "a3", "name": "Combo 4: 20 Alitas + Porción de papas", "price": 45000, "img": "https://e1.pxfuel.com/desktop-wallpaper/956/966/desktop-wallpaper-chicken-wings-bbq-wings.jpg" },
-    { "id": "a4", "name": "Combo 5: 30 Alitas + Porción de papas", "price": 60000, "img": "https://e1.pxfuel.com/desktop-wallpaper/956/966/desktop-wallpaper-chicken-wings-bbq-wings.jpg" },
-    { "id": "a5", "name": "Combo 6: 50 Alitas + Porción de papas", "price": 92000, "img": "https://e1.pxfuel.com/desktop-wallpaper/956/966/desktop-wallpaper-chicken-wings-bbq-wings.jpg" }
-  ],
-  "Salchipapas": [
-    { "id": "s1", "name": "Salchipapa Sencilla", "price": 13000, "img": "https://github.com/xtebaan/Pancho/blob/main/senci.png?raw=true" },
-    { "id": "s2", "name": "Salchipapa Gratinada", "price": 21000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_45_50%20a.m..png?raw=true" },
-    { "id": "s3", "name": "Salchipapa Especial Pequeña", "price": 23000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_47_08%20a.m..png?raw=true" },
-    { "id": "s4", "name": "Salchipapa Especial Grande", "price": 29000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_47_10%20a.m..png?raw=true" },
-    { "id": "s5", "name": "Salchipapa Súper Especial", "price": 40000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_47_07%20a.m..png?raw=true" },
-    { "id": "s6", "name": "Papas con Queso", "price": 11000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_47_23%20a.m..png?raw=true" },
-    { "id": "s7", "name": "Porción de Papas", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_47_26%20a.m..png?raw=true" }
-  ],
-  "Asados": [
-    { "id": "as1", "name": "Costilla a la BBQ (400g) + papas", "price": 22000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_47_29%20a.m..png?raw=true" },
-    { "id": "as2", "name": "Snack de Pollo (200g) + papas y salsas", "price": 20000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_47_36%20a.m..png?raw=true" },
-    { "id": "as3", "name": "Chorizo Pancho (a la plancha) + papas", "price": 12000, "img": "https://github.com/xtebaan/Pancho/blob/main/ChatGPT%20Image%201%20sept%202025,%2009_47_43%20a.m..png?raw=true" },
-    { "id": "as4", "name": "Costillitas (200g) + 4 alitas + papas", "price": 22000, "img": "https://github.com/xtebaan/Pancho/blob/main/costiali.png?raw=true" }
-  ],
-  "Adicionales": [
-    { "id": "ad1", "name": "Costilla 200gr (adicional)", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/costillas-la-parrilla-calientes-con-salsa-barbacoa-aislado-sobre-fondo-blanco-ai-generativo.jpg?raw=true" },
-    { "id": "ad2", "name": "Queso 100gr", "price": 6000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-grated-cheese-in-a-glass-bowl-tasty-parmesan-isolated-on-white-png-image_12298454.png" },
-    { "id": "ad3", "name": "Pollo (adicional)", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/bola-de-camaron.jpg?raw=true" },
-    { "id": "ad4", "name": "Maduro", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/platano.png?raw=true" },
-    { "id": "ad5", "name": "Maíz", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/maizitos.png?raw=true" },
-    { "id": "ad6", "name": "Tocineta", "price": 8000, "img": "https://github.com/xtebaan/Pancho/blob/main/cerdo-pastrami.jpg?raw=true" },
-    { "id": "ad7", "name": "Alitas (unidad)", "price": 5000, "img": "https://github.com/xtebaan/Pancho/blob/main/aislado-pollo-frito.jpg?raw=true" },
-    { "id": "ad8", "name": "Adición de salsa (BBQ, miel mostaza, picantes, tradicionales)", "price": 1000, "img": "https://github.com/xtebaan/Pancho/blob/main/saaaal.png?raw=true" }
-  ],
-  "Limonadas": [
-    { "id": "l1", "name": "Limonada Natural", "price": 6000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-delicious-juicy-lemonade-png-image_6241123.jpg" },
-    { "id": "l2", "name": "Coco", "price": 10000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-refresh-coconut-cocktail-drink-png-image_13228587.png" },
-    { "id": "l3", "name": "Frutos Rojos en leche", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-red-fruit-smoothie-png-image_16963479.png" },
-    { "id": "l4", "name": "Frutos Rojos en agua", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-refreshing-berry-mojito-cocktail-with-blackberry-blueberry-raspberry-and-mint-png-image_12943958.png" },
-    { "id": "l5", "name": "Hierbabuena", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/limonada-hierbabuena2.png" },
-    { "id": "l6", "name": "Mango Biche", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-a-glass-of-lemonade-with-mango-and-limes-on-table-png-image_15585581.png" },
-    { "id": "l7", "name": "Cereza", "price": 9000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/pngtree-cherry-limeade-png-image_19534395.png" }
-  ],
-  "Gaseosas y Otros": [
-    { "id": "b1", "name": "Hit litro", "price": 6000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/Jugos-Hit-Surtido-.png" },
-    { "id": "b2", "name": "Coca Cola 1.5L", "price": 8000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/Coke-1.5L.png" },
-    { "id": "b3", "name": "Postobón 2L", "price": 7000, "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/3279456834.png" },
-    { "id": "b4", "name": "Hit personal", "price": 4000, "img": "hit-personal.jpg" },
-    { "id": "b5", "name": "Coca Cola 400ml", "price": 4000, "img": "coca-400.jpg" },
-    { "id": "b6", "name": "Agua", "price": 3000, "img": "agua.jpg" }
-  ],
-  "Jugos Naturales": [
-    { "id": "j1", "name": "Jugo en agua", "price": 6000, "img": "jugo-agua.jpg" },
-    { "id": "j2", "name": "Jugo en leche", "price": 7000, "img": "jugo-leche.jpg" }
-  ],
-  "Bebidas Calientes": [
-    { "id": "bc1", "name": "Tinto", "price": 3000, "img": "tinto.jpg" },
-    { "id": "bc2", "name": "Café con Leche", "price": 4000, "img": "https://st2.depositphotos.com/3714791/43760/i/450/depositphotos_437607022-stock-photo-white-coffee-mug-spicy-raf.jpg" },
-    { "id": "bc3", "name": "Aromática", "price": 3000, "img": "aromatica.jpg" }
-  ],
-  "Sodas Saborizadas": [
-    { "id": "sod1", "name": "Soda saborizada (Frutos Rojos/Amarillo/Verde)", "price": 9000, "img": "soda.jpg" }
-  ],
-  "Cervezas": [
-    { "id": "c1", "name": "Club Colombia", "price": 6000, "img": "https://github.com/xtebaan/Pancho/blob/main/cerveza1.png?raw=true" },
-    { "id": "c2", "name": "Águila Light", "price": 6000, "img": "https://copservir.vtexassets.com/arquivos/ids/1564487/CERVEZA-AGUILA-LIGHT-330-CC_F.png?v=638787694187570000" },
-    { "id": "c3", "name": "Corona", "price": 8000, "img": "https://i0.wp.com/foodandwineespanol.com/wp-content/uploads/2018/12/destacada-corona.webp?fit=2560%2C1440&ssl=1" },
-    { "id": "c4", "name": "Cordillera", "price": 6000, "img": "https://drinka.co/wp-content/uploads/2024/12/23.png" }
-  ]
+    "Alitas": [
+        {
+            "name": "Combo 1: 6 Alitas + Porción de papas",
+            "price": "No disponible",
+            "img": "https:\/\/png.pngtree.com\/thumb_back\/fh260\/background\/20230518\/pngtree-large-plate-of-chicken-wings-on-a-black-background-image_2586127.jpg"
+        },
+        {
+            "name": "Combo 2: 10 Alitas + Porción de papas",
+            "price": "32000",
+            "img": "https:\/\/png.pngtree.com\/thumb_back\/fh260\/background\/20230518\/pngtree-large-plate-of-chicken-wings-on-a-black-background-image_2586127.jpg"
+        },
+        {
+            "name": "Combo 4: 20 Alitas + Porción de papas",
+            "price": "45000",
+            "img": "https:\/\/e1.pxfuel.com\/desktop-wallpaper\/956\/966\/desktop-wallpaper-chicken-wings-bbq-wings.jpg"
+        },
+        {
+            "name": "Combo 5: 30 Alitas + Porción de papas",
+            "price": "60000",
+            "img": "https:\/\/e1.pxfuel.com\/desktop-wallpaper\/956\/966\/desktop-wallpaper-chicken-wings-bbq-wings.jpg"
+        },
+        {
+            "name": "Combo 6: 50 Alitas + Porción de papas",
+            "price": "92000",
+            "img": "https:\/\/e1.pxfuel.com\/desktop-wallpaper\/956\/966\/desktop-wallpaper-chicken-wings-bbq-wings.jpg"
+        }
+    ],
+    "Salchipapas": [
+        {
+            "name": "Salchipapa Sencilla",
+            "price": "13000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/senci.png?raw=true"
+        },
+        {
+            "name": "Salchipapa Gratinada",
+            "price": "21000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_45_50%20a.m..png?raw=true"
+        },
+        {
+            "name": "Salchipapa Especial Pequeña",
+            "price": "23000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_47_08%20a.m..png?raw=true"
+        },
+        {
+            "name": "Salchipapa Especial Grande",
+            "price": "29000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_47_10%20a.m..png?raw=true"
+        },
+        {
+            "name": "Salchipapa Súper Especial",
+            "price": "40000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_47_07%20a.m..png?raw=true"
+        },
+        {
+            "name": "Papas con Queso",
+            "price": "11000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_47_23%20a.m..png?raw=true"
+        },
+        {
+            "name": "Porción de Papas",
+            "price": "6000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_47_26%20a.m..png?raw=true"
+        }
+    ],
+    "Asados": [
+        {
+            "name": "Costilla a la BBQ (400g) + papas",
+            "price": "22000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_47_29%20a.m..png?raw=true"
+        },
+        {
+            "name": "Snack de Pollo (200g) + papas y salsas",
+            "price": "20000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_47_36%20a.m..png?raw=true"
+        },
+        {
+            "name": "Chorizo Pancho (a la plancha) + papas",
+            "price": "12000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/ChatGPT%20Image%201%20sept%202025,%2009_47_43%20a.m..png?raw=true"
+        },
+        {
+            "name": "Costillitas (200g) + 4 alitas + papas",
+            "price": "22000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/costiali.png?raw=true"
+        }
+    ],
+    "Adicionales": [
+        {
+            "name": "Costilla 200gr (adicional)",
+            "price": "6000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/costillas-la-parrilla-calientes-con-salsa-barbacoa-aislado-sobre-fondo-blanco-ai-generativo.jpg?raw=true"
+        },
+        {
+            "name": "Queso 100gr",
+            "price": "6000",
+            "img": "ad-queso.jpg"
+        },
+        {
+            "name": "Pollo (adicional)",
+            "price": "6000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/bola-de-camaron.jpg?raw=true"
+        },
+        {
+            "name": "Maduro",
+            "price": "6000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/platano.png?raw=true"
+        },
+        {
+            "name": "Maíz",
+            "price": "6000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/maizitos.png?raw=true"
+        },
+        {
+            "name": "Tocineta",
+            "price": "8000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/cerdo-pastrami.jpg?raw=true"
+        },
+        {
+            "name": "Alitas (unidad)",
+            "price": "5000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/aislado-pollo-frito.jpg?raw=true"
+        },
+        {
+            "name": "Adición de salsa (BBQ, miel mostaza, picantes, tradicionales)",
+            "price": "1000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/saaaal.png?raw=true"
+        }
+    ],
+    "Limonadas": [
+        {
+            "name": "Limonada Natural",
+            "price": "6000",
+            "img": "limonada.jpg"
+        },
+        {
+            "name": "Coco",
+            "price": "10000",
+            "img": "coco.jpg"
+        },
+        {
+            "name": "Frutos Rojos en leche",
+            "price": "9000",
+            "img": "frutos-leche.jpg"
+        },
+        {
+            "name": "Frutos Rojos en agua",
+            "price": "9000",
+            "img": "frutos-agua.jpg"
+        },
+        {
+            "name": "Hierbabuena",
+            "price": "9000",
+            "img": "hierbabuena.jpg"
+        },
+        {
+            "name": "Mango Biche",
+            "price": "9000",
+            "img": "mango.jpg"
+        },
+        {
+            "name": "Cereza",
+            "price": "9000",
+            "img": "cereza.jpg"
+        }
+    ],
+    "Gaseosas y Otros": [
+        {
+            "name": "Hit litro",
+            "price": "6000",
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/Jugos-Hit-Surtido-.png?raw=true"
+        },
+        {
+            "name": "Coca Cola 1.5L",
+            "price": "8000",
+            "img": "coca-1.5.jpg"
+        },
+        {
+            "name": "Postobón 2L",
+            "price": "7000",
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/3279456834.png"
+        },
+        {
+            "name": "Hit personal",
+            "price": "4000",
+            "img": "hit-personal.jpg"
+        },
+        {
+            "name": "Coca Cola 400ml",
+            "price": "4000",
+            "img": "coca-400.jpg"
+        },
+        {
+            "name": "Agua",
+            "price": "3000",
+            "img": "agua.jpg"
+        }
+    ],
+    "Jugos Naturales": [
+        {
+            "name": "Jugo en agua",
+            "price": "6000",
+            "img": "jugo-agua.jpg"
+        },
+        {
+            "name": "Jugo en leche",
+            "price": "7000",
+            "img": "jugo-leche.jpg"
+        }
+    ],
+    "Bebidas Calientes": [
+        {
+            "name": "Tinto",
+            "price": "3000",
+            "img": "tinto.jpg"
+        },
+        {
+            "name": "Café con Leche",
+            "price": "4000",
+            "img": "https:\/\/st2.depositphotos.com\/3714791\/43760\/i\/450\/depositphotos_437607022-stock-photo-white-coffee-mug-spicy-raf.jpg"
+        },
+        {
+            "name": "Aromática",
+            "price": "3000",
+            "img": "aromatica.jpg"
+        }
+    ],
+    "Sodas Saborizadas": [
+        {
+            "name": "Soda saborizada (Frutos Rojos\/Amarillo\/Verde)",
+            "price": "9000",
+            "img": "soda.jpg"
+        }
+    ],
+    "Cervezas": [
+        {
+            "name": "Club Colombia",
+            "price": "6000",
+            "img": "https:\/\/github.com\/xtebaan\/Pancho\/blob\/main\/cerveza1.png?raw=true"
+        },
+        {
+            "name": "Águila Light",
+            "price": "6000",
+            "img": "https:\/\/copservir.vtexassets.com\/arquivos\/ids\/1564487\/CERVEZA-AGUILA-LIGHT-330-CC_F.png?v=638787694187570000"
+        },
+        {
+            "name": "Corona",
+            "price": "8000",
+            "img": "https:\/\/i0.wp.com\/foodandwineespanol.com\/wp-content\/uploads\/2018\/12\/destacada-corona.webp?fit=2560%2C1440&ssl=1"
+        },
+        {
+            "name": "Cordillera",
+            "price": "6000",
+            "img": "https:\/\/drinka.co\/wp-content\/uploads\/2024\/12\/23.png"
+        }
+    ]
 }
-
-
