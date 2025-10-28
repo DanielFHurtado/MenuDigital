@@ -94,7 +94,7 @@
         {
             "name": "Queso 100gr",
             "price": "6000",
-            "img": "ad-queso.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/queso.png?raw=true"
         },
         {
             "name": "Pollo (adicional)",
@@ -131,37 +131,37 @@
         {
             "name": "Limonada Natural",
             "price": "6000",
-            "img": "limonada.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/limonada%20natural.png?raw=true"
         },
         {
             "name": "Coco",
             "price": "10000",
-            "img": "coco.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/coco.png?raw=true"
         },
         {
             "name": "Frutos Rojos en leche",
             "price": "9000",
-            "img": "frutos-leche.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/frutos%20rojos%20en%20leche.png?raw=true"
         },
         {
             "name": "Frutos Rojos en agua",
             "price": "9000",
-            "img": "frutos-agua.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/rojos%20en%20agua.png?raw=true"
         },
         {
             "name": "Hierbabuena",
             "price": "9000",
-            "img": "hierbabuena.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/limonada-hierbabuena2.png?raw=true"
         },
         {
             "name": "Mango Biche",
             "price": "9000",
-            "img": "mango.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/GRANIZADOMANGOBICHE.png?raw=true"
         },
         {
             "name": "Cereza",
             "price": "9000",
-            "img": "cereza.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/cereza.png?raw=true"
         }
     ],
     "Gaseosas y Otros": [
@@ -173,46 +173,46 @@
         {
             "name": "Coca Cola 1.5L",
             "price": "8000",
-            "img": "coca-1.5.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/409D.png?raw=true"
         },
         {
             "name": "Postobón 2L",
             "price": "7000",
-            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/3279456834.png"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/3279456834.png?raw=true"
         },
         {
             "name": "Hit personal",
             "price": "4000",
-            "img": "hit-personal.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/La-mejor-21.png?raw=true"
         },
         {
             "name": "Coca Cola 400ml",
             "price": "4000",
-            "img": "coca-400.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/COCA-COLA-400-ML.png?raw=true"
         },
         {
             "name": "Agua",
             "price": "3000",
-            "img": "agua.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/pngtree-water-bottle-png-image_15868794.png?raw=true"
         }
     ],
     "Jugos Naturales": [
         {
             "name": "Jugo en agua",
             "price": "6000",
-            "img": "jugo-agua.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/jugo-natural-en-agua.png?raw=true"
         },
         {
             "name": "Jugo en leche",
             "price": "7000",
-            "img": "jugo-leche.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/pngtree-three-cups-of-milk-shake-png-image_13617378.png?raw=true"
         }
     ],
     "Bebidas Calientes": [
         {
             "name": "Tinto",
             "price": "3000",
-            "img": "tinto.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/N4UXS4V5ENH4VNQVQS4IGQYV64.png?raw=true"
         },
         {
             "name": "Café con Leche",
@@ -222,14 +222,14 @@
         {
             "name": "Aromática",
             "price": "3000",
-            "img": "aromatica.jpg"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/pngtree-aromatic-herbal-tea-cup-on-table-png-image_20678065.png?raw=true"
         }
     ],
     "Sodas Saborizadas": [
         {
             "name": "Soda saborizada (Frutos Rojos\/Amarillo\/Verde)",
             "price": "9000",
-            "img": "https://github.com/DanielFHurtado/MenuDigital/blob/main/sodas.png"
+            "img": "https:\/\/github.com\/DanielFHurtado\/MenuDigital\/blob\/main\/sodas.png?raw=true"
         }
     ],
     "Cervezas": [
